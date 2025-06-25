@@ -1,19 +1,14 @@
 //kamatham hemanth sai 
 //22PA1A0565
 fn main() {
-    let x = 5;
-    println!("outer scope: {}", x);
+    let a = 10;           
+    let b = 3.14;          
+    let c = "hello";       
 
-    {
-        let x = 10;
-        println!("inner scope: {}", x);
+    println!("Implicit types: a = {}, b = {}, c = {}", a, b, c);
+    let x: i64 = 100;
+    let y: f32 = 6.28;
+    let z: &str = "world";
 
-        let x = x + 5;
-        println!("shadowing inside inner scope: {}", x);
-    }
-
-    println!("x in outer scope: {}", x);
-
-    let x = x * 4;
-    println!("x after shadowing in outer scope: {}", x);
+    println!("Explicit types: x = {}, y = {}, z = {}", x, y, z);
 }
