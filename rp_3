@@ -1,0 +1,11 @@
+//kamatham hemanth sai 
+//22PA1A0565
+fn main() {
+    let mut a=1000;
+    let b="Programming";
+    println!("{}",a);
+    println!("{}",b);
+    a=1100;
+    println!("{}",a)
+    
+}
